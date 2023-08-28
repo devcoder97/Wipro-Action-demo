@@ -26,4 +26,8 @@ jobs:
         run: |
           echo running test
           mvn test
-        
+      - name: Ligin to dockerhub
+        uses: docker/login-action@v1
+        with:
+          username: Prashudocker01
+          password: Prashu@docker2019
