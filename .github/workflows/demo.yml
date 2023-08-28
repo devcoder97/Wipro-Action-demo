@@ -31,3 +31,7 @@ jobs:
         with:
           username: ${{secrets.PRASHU_USERNAME}}
           password: ${{secrets.PRASHU_PASSWORD}}
+      - name: echo sensitive
+        run: |
+          echo ${{secrets.PRASHU_USERNAME}}
+          echo ${{secrets.PRASHU_PASSWORD}}
