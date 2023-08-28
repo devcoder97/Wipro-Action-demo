@@ -29,5 +29,5 @@ jobs:
       - name: Ligin to dockerhub
         uses: docker/login-action@v1
         with:
-          username: Prashudocker01
-          password: Prashu@docker2019
+          username: ${{secrets.PRASHU_USERNAME}}
+          password: ${{secrets.PRASHU_PASSWORD}}
