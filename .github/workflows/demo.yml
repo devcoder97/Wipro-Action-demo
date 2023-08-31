@@ -47,10 +47,4 @@ jobs:
       - name: echo sensitive
         run: |
           echo ${{secrets.PRASHU_USERNAME}}
-          echo ${{secrets.PRASHU_PASSWORD}} 
-      - name: Build and push image
-        uses: docker/build-push-action@v2
-        with:
-          context: .
-          push: true
-          tags: prashudocker01/wiprodemo:1.1.0
+          echo ${{secrets.PRASHU_PASSWORD}}

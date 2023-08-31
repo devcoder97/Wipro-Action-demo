@@ -8,7 +8,7 @@ public class DemoApplication {
 
 	public static void main(String[] args) {
 
-		System.out.println("I'm Running and from java 17");
+		System.out.println("I'm Running");
 		SpringApplication.run(DemoApplication.class, args);
 	}
 
