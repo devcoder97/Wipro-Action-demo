@@ -8,7 +8,7 @@ public class DemoApplication {
 
 	public static void main(String[] args) {
 
-		System.out.println("I'm Running, push from codespace");
+		System.out.println("I'm Running and from java 17");
 		SpringApplication.run(DemoApplication.class, args);
 	}
 
